@@ -15,11 +15,9 @@ char ch = 'a';
 char CH = 'A';
 while (ch <= 'z')
 {
-putchar(ch);
+putchar(ch)
 ch++;
 }
-putchar('\n');
-
 while (CH <= 'Z')
 {
 putchar(CH);
