@@ -6,6 +6,7 @@
 * description: false or true validation
 * return: 0 (success)
 */
+
 int main(void)
 {
 int n;
