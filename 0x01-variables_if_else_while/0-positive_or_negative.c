@@ -4,11 +4,10 @@
 
 /**
 * main - entry point
-* 
+*
 * description: false or true validation for n by using if
-* 
-* return: 0 (success)
-*/
+*
+* return: 0 (success)*/
 
 int main(void)
 {
