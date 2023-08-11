@@ -1,13 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
-* main - entry point
+ * main - entry point
 *
-* description: false or true validation for n by using if
-*
-* return: 0 (success)*/
+* return: always 0 to indicate (success)
+**/
 
 int main(void)
 {
