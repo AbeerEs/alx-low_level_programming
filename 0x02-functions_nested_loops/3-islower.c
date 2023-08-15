@@ -2,6 +2,7 @@
 
 /**
 * _islower - entry point
+* @c: checks input of function
 * description: print alphabet by  using putchar
 * Return: (0) success
 *
