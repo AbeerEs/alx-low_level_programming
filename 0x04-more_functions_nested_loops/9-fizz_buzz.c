@@ -1,6 +1,5 @@
 #include <stdio.h>
-//#include <limits.h>
-//#include "main.h"
+
 /**
  *main - entry point
  *description prints the numbers from 1 to 100, followed by a new line
