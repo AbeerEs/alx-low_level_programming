@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include <limits.h>
-#include "main.h"
+//#include <limits.h>
+//#include "main.h"
 /**
  *main - entry point
  *description prints the numbers from 1 to 100, followed by a new line
@@ -14,11 +14,11 @@ int main(void)
 	for (num = 1; num <= 100; num++)
 	{
 		if (num % 3 == 0)
-			printf("%s", "Fizz");
+			printf("Fizz");
 		else if (num % 5 == 0)
-			printf("%s", "Buzz");
+			printf("Buzz");
 		else if ((num % 3 == 0) && (num % 5 == 0))
-			printf("%s", "FizzBuzz");
+			printf("FizzBuzz");
 		else
 			printf("%d", num);
 		if (num != 100)
