@@ -12,6 +12,12 @@ int is_prime_number(int n)
 	return (check(n, 2));
 
 }
+/**
+ *check - find prim
+ *@n: input value
+ *@i: input parameter
+ *Return: int
+ */
 int check(int n, int i)
 {
 	if (i >= n && n > 1)
