@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *is_prime_number : returns 1 if the input is prime number, otherwise return 0
+ *is_prime_number - returns 1 if the input is prime number, otherwise return 0
  *check - find prim
  *@n: input value
  *@i: input parameter
