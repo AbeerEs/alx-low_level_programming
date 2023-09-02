@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
- *main: entry point
+ *main - entry point
  *@argc: input parameter
  *@argv: input parameter
  *Return: int
  */
-int main(int argc, char const *argv[])
+int main(int argc, char *argv[])
 {
 	printf("%d\n", argc)
 		return (0);
