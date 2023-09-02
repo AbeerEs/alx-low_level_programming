@@ -5,8 +5,8 @@
  *@argv: input parameter
  *Return: int
  */
-int main (int argc, char const *argv[])
+int main(int argc, char const *argv[])
 {
-	printf ("%d\n", argc)
+	printf("%d\n", argc)
 		return (0);
 }
