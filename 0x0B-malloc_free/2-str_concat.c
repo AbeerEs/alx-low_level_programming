@@ -1,9 +1,22 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+
+/**
+ * *strsize - get size
+ * @s: input parame
+ * Return: int
+ */
+int strsize(char *s)
+{
+        int size = 0;
+
+        for (; s[size] != '\0'; size++)
+        ;
+        return (size);
+}
 /**
  **str_concat - concatenates two strings
- *@s: input parameter
  *@s1: input parameter
  *@s2: input parameter
  **strsize - get size
@@ -12,9 +25,10 @@
 char *str_concat(char *s1, char *s2)
 {
 	char *con;
-	int size1, size2;
-	size1 = strsize[s1];
-	size2 = strsize[s2];
+	int size1, size2, i;
+
+	size1 = strsize(s1);
+	size2 = strsize(s2);
 	if (s1 == NULL)
 		s1 = '\0';
 	if (s2 == NULL)
@@ -29,20 +43,6 @@ char *str_concat(char *s1, char *s2)
 		else
 			con[i] = s2[i - size1];
 	}
-	con[i]= '\0';
+	con[i] = '\0';
 	return (con);
-	
-
-}
-/**
- * *strsize - get size
- * @s: input parame
- * Return: int
- */
- int *strsize (char *s)
-{
-	int size = 0;
-	for (;s[size} != '\0'; size++)
-	;
-	return (size);
 }
