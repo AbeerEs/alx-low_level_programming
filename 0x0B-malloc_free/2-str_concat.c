@@ -9,11 +9,11 @@
  */
 int strsize(char *s)
 {
-        int size = 0;
+	int size = 0;
 
-        for (; s[size] != '\0'; size++)
-        ;
-        return (size);
+	for (; s[size] != '\0'; size++)
+	;
+	return (size);
 }
 /**
  **str_concat - concatenates two strings
