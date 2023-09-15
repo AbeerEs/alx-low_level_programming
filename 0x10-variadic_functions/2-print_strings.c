@@ -13,7 +13,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	va_list ap;
 	char *str;
 
-	f (!n)
+	if (!n)
 	{
 		printf("\n");
 		return;
